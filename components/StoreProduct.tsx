@@ -4,6 +4,10 @@ import {View, Image, Text, TouchableOpacity, Dimensions, StyleSheet} from 'react
 
 const width = Dimensions.get('screen').width / 2 - 10;
 
+
+
+
+
 const StoreProduct = ({product}) => {
   const addToCart = useCartStore(state => state.addToCart);
   if (product.stats.average_price === 0) {
