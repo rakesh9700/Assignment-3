@@ -1,4 +1,4 @@
-import android.os.Bundle;//Added
+// import android.os.Bundle;//Added
 
 package com.storeapp;
 
@@ -49,8 +49,8 @@ public class MainActivity extends ReactActivity {
   }
 
   //Added
-  @Override
-  protected void onCreate(Bundle savedInstanceState) {
-    super.onCreate(null);
-  }
+  // @Override
+  // protected void onCreate(Bundle savedInstanceState) {
+  //   super.onCreate(null);
+  // }
 }
